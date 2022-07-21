@@ -44,5 +44,9 @@ table {
 }
 
 body {
+  min-height: 100vh;
+}
+
+.wrapper {
   max-width: 595px;
 }/*# sourceMappingURL=style.css.map */
