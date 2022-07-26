@@ -51,10 +51,26 @@ body {
   max-width: 595px;
   display: grid;
   grid-template-columns: 300px 1fr;
-  grid-template-rows: 100px 1fr;
+  grid-template-areas: "sidebar content";
+  line-height: 1.2;
 }
 
 .sidebar {
-  padding: 25px;
   grid-area: sidebar;
+  padding: 25px;
+  display: grid;
+  background: #5E5E5E;
+}
+.sidebar * {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.photo {
+  justify-self: center;
+}
+
+.content {
+  grid-area: content;
+  padding: 25px;
 }/*# sourceMappingURL=style.css.map */

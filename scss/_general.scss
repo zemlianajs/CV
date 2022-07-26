@@ -5,10 +5,6 @@ body {
     max-width: 595px;
     display: grid;
     grid-template-columns: 300px 1fr;
-    grid-template-rows: 100px 1fr;
-    
-}
-.sidebar {
-    padding: 25px;
-    grid-area: sidebar;
+    grid-template-areas: "sidebar content";
+    line-height: 1.2;
 }
